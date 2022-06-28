@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 
-namespace ClientPlugin.Logging
+namespace NoCopyAutoPreview.Logging
 {
     public class LogFormatter
     {

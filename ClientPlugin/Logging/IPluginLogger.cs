@@ -1,6 +1,6 @@
 using System;
 
-namespace ClientPlugin.Logging
+namespace NoCopyAutoPreview.Logging
 {
     public interface IPluginLogger
     {

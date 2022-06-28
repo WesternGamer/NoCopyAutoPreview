@@ -1,9 +1,9 @@
 using System;
 using System.Reflection;
 using HarmonyLib;
-using ClientPlugin.Logging;
+using NoCopyAutoPreview.Logging;
 
-namespace ClientPlugin.Patches
+namespace NoCopyAutoPreview.Patches
 {
     // ReSharper disable once UnusedType.Global
     public static class PatchHelpers

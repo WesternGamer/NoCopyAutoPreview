@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 #if !TORCH
 
-namespace ClientPlugin.Config
+namespace NoCopyAutoPreview.Config
 {
     public class PluginConfig: IPluginConfig
     {
@@ -29,16 +29,13 @@ namespace ClientPlugin.Config
             propertyChanged(this, new PropertyChangedEventArgs(propName));
         }
 
-        private bool enabled = true;
-        // TODO: Implement your config fields
+        internal bool enabled = true;
 
         public bool Enabled
         {
             get => enabled;
             set => SetValue(ref enabled, value);
         }
-
-        // TODO: Encapsulate them as properties
     }
 }
 
